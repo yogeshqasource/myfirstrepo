@@ -4,7 +4,7 @@ export default function Label(props)  {
   const inputValue = useSelector((state) => state.homeReducer.inputValue);
 
     return (
-      <label style={{...props.style, fontWeight: 'bold'}}>
+      <label style={{...props.style, fontWeight: 'bold', color: 'red'}}>
           {inputValue}
       </label>
 
