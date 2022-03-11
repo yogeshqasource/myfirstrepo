@@ -13,7 +13,7 @@ export default class MyButton extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <button disabled={this.props.disableButton} onClick={() => this.testFunction()}>{this.props.children}</button>
+        <button style={{ color: 'red' }} disabled={this.props.disableButton} onClick={() => this.testFunction()}>{this.props.children}</button>
       </React.Fragment>
     );
   }
